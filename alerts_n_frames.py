@@ -6,7 +6,7 @@ driver = webdriver.Firefox(executable_path=r"D:\Next\Automation\Drivers\geckodri
 url = "https://softwaretestingbootcamp.blogspot.com/p/automation.html"
 driver.get(url)
 driver.maximize_window()
-driver.implicitly_wait(30)
+#driver.implicitly_wait(30)
 time.sleep(10)
 alert_click = driver.find_element_by_xpath("//button[@onclick='myFunction()']").click()
 time.sleep(5)
