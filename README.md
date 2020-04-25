@@ -1,2 +1,0 @@
-# PythonSelenium
-Python Selenium
